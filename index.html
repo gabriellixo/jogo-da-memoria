@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jogo da Memória </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body onload="GameControl.createGame()">
+    <header>
+        <h1> Jogo da memória 
+        </h1>
+        <h3> Bora treinar essa mente, irmão </h3>
+        <h4> Tema:  </h4>
+        <img class = "icone "src="images/pngegg.png" alt="">   
+    </header>
+
+	<div  id="main" class="main">
+
+	<div id="control">
+		<input type="button"  class="button_game" value="Reiniciar" onclick="GameControl.createGame()"/> 
+	</div>
+	<div id="score">
+	</div>
+	<div id="game">
+	</div>
+</div>
+<script src="funcoes.js"></script>
+</body>
+</html>
